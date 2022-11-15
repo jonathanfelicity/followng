@@ -1,10 +1,16 @@
-import Welcome from "./src/screens/Welcome";
+
+import { NavigationContainer } from "@react-navigation/native";
+
+import { StackNavigator } from "./src/navigators";
+
 
 const App = () => {
 
 
   return (
-    <Welcome/>
+    <NavigationContainer>
+      <StackNavigator/>
+    </NavigationContainer>
   );
 };
 

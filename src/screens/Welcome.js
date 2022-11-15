@@ -1,12 +1,9 @@
-import {Text, View, StyleSheet } from "react-native"
+import {Text, View, StyleSheet, Image } from "react-native"
 
 const Welcome = ()=>{
     return (
         <View style={ styles.container }>
-            <Text>FollowNG</Text>
-
-
-        
+            <Text>HEllo from me</Text>
         </View>
     )
 }

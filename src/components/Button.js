@@ -9,6 +9,9 @@ const Button = ({ text })=>{
             <Text>{ text }</Text>
         </TouchableOpacity>
     )
+
+    
 }
 
+export default Button
 
